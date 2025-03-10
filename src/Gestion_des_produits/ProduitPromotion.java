@@ -1,4 +1,4 @@
-package Gestion_Produit;
+package Gestion_des_produits;
 
 public class ProduitPromotion extends Produit{
 
@@ -18,8 +18,8 @@ public class ProduitPromotion extends Produit{
     }
 
     @Override
-    public void affcherDetails(){
-        System.out.println("Nom : " + super.getNom());
-        System.out.println("Prix : " + (super.getPrix()  - prixPromo));
+    public void afficherInfo() {
+        System.out.println("Nom :" + getNom());
+        System.out.println("Prix Promo :" + prixPromo);
     }
 }

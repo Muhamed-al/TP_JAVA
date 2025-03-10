@@ -1,7 +1,6 @@
-package Gestion_Produit;
+package Gestion_des_produits;
 
 public class Produit {
-
     private String nom;
     private double prix;
 
@@ -18,7 +17,6 @@ public class Produit {
         this.nom = nom;
     }
 
-
     public double getPrix() {
         return prix;
     }
@@ -27,8 +25,8 @@ public class Produit {
         this.prix = prix;
     }
 
-    public void affcherDetails(){
-        System.out.println("Nom : " + nom);
-        System.out.println("Prix : " + prix);
+    public void afficherInfo(){
+        System.out.println("Nom : " + nom );
+        System.out.println("Prix : " + prix );
     }
 }

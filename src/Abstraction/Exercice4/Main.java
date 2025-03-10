@@ -16,6 +16,8 @@ public class Main {
         System.out.println("Methode 2");
         for (Animal el : animaux){
             el.crier();
+
+
         }
 
 
