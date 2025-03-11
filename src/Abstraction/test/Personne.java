@@ -5,6 +5,7 @@ public class Personne {
     String name;
     int age;
     String cin;
+    boolean isAvailable;
 
     public Personne(String name, int age, String cin) {
         this.name = name;
@@ -12,8 +13,4 @@ public class Personne {
         this.cin = cin;
     }
 
-    @Override
-    public String toString() {
-        return "Bonjour";
-    }
 }
