@@ -16,9 +16,7 @@ public abstract class Paiement {
         this.montant = montant;
     }
 
-    abstract public void effectuerPaiement();
-
-
+    abstract public  void effectuerPaiment(double montant);
 
 
 }

@@ -1,18 +1,19 @@
 package Abstraction.Exercice2;
 
 public abstract class Message {
-    private String content;
 
-    public Message(String content) {
-        this.content = content;
+    private String contenu;
+
+    public Message(String contenu) {
+        this.contenu = contenu;
     }
 
-    public String getContent() {
-        return content;
+    public String getContenu() {
+        return contenu;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setContenu(String contenu) {
+        this.contenu = contenu;
     }
 
     public abstract void envoyer();
